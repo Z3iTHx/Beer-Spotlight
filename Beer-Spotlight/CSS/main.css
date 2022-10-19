@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: white;
+}
+
+
+
+.beer-box {
+    display: flex;
+    margin: auto;
+    width: 60%;
+    height: 600px;
+    background-color: whitesmoke;
+    border: grey solid 1px;
+}
+
+.beer-box-choice-holder {
+    width: 30%;
+    height: 100%;
+}
+
+.beer-box-choice-holder-header {
+    text-align: center;
+    font-family: 'Berkshire Swash', cursive;
+    transform: translateY(40px);
+    font-size: 30px;
+}
+
+.beer-box-choice-holder-list {
+    list-style: none;
+}
+
+.beer-box-choice-holder-list-element  {
+    margin: 80px 20px;
+}
+
+.beer-box-choice-holder-list-element-btn {
+    transition: 0.4s ease-out;
+    border: none;
+    margin: auto;
+    background-color: transparent;
+    width: 100%;
+    height: 50px;
+    color: grey;
+    font-family: 'Lemonada', cursive;
+    border-bottom: darkgrey 1px solid;
+    border-top: darkgrey 1px solid;
+}
+
+.beer-box-choice-holder-list-element-btn:hover {
+    color: goldenrod;
+    transform: scale(110%);
+    border-top: goldenrod 1px solid;
+    border-bottom: goldenrod 1px solid;
+    font-size: 15px;
+    cursor: pointer;
+
+}
+
+.beer-box-choice-holder-list-element-btn-clicked {
+    color: goldenrod;
+    transform: scale(110%);
+    border-top: goldenrod 1px solid;
+    border-bottom: goldenrod 1px solid;
+    font-size: 15px;   
+}
+
+.beer-box-spotlight {
+    transition: 0.75s;
+    width: 70%;
+    height: 100%;
+    z-index: 100;
+}
+
+.lech-bg {
+    background-image: url(/GALLERY/lech-spotlight.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.somersby-bg {
+    background-image: url(/GALLERY/somersby-spotlight.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.desperados-bg {
+    background-image: url(/GALLERY/desperados-spotlight.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.harnas-bg {
+    background-image: url(/GALLERY/harnas-spotlight.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.lech-btn-active {
+    color: green;
+    transform: scale(110%);
+    border-top: green 1px solid;
+    border-bottom: green 1px solid;
+    font-size: 15px;
+}
+
+.desperados-btn-active {
+    color: red;
+    transform: scale(110%);
+    border-top: red 1px solid;
+    border-bottom: red 1px solid;
+    font-size: 15px;
+}
+
+.somersby-btn-active {
+    color: darkorchid;
+    transform: scale(110%);
+    border-top: darkorchid 1px solid;
+    border-bottom: darkorchid 1px solid;
+    font-size: 15px;
+}
+
+.harnas-btn-active {
+    color:  royalblue;
+    transform: scale(110%);
+    border-top: royalblue 1px solid;
+    border-bottom: royalblue 1px solid;
+    font-size: 15px;
+}
+
